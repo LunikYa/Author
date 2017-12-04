@@ -1,0 +1,217 @@
+@import url("fonts.css");
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: ;
+}
+
+a:hover, a {
+  text-decoration: inherit;
+  color: inherit; 
+}
+
+body{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  min-width: 320px;
+  text-align: center;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo{
+  float: left;
+  color: #44c0c2; 
+  font-size: 2.69em;
+  font-family: "LobsterRegular";
+  margin-top: 25px; 
+}
+
+.menu{
+  list-style-type: none;
+  float: right;
+  color: #484c55;
+  font-size: 0.937em;
+  font-family: "Myriad Pro";
+}
+
+.menu li{
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.menu a{
+  padding: 40px 20px;
+  display: block;
+  line-height: 24px;
+}
+
+ a.active_item_menu, nav a:hover{
+  color: #44c0c2;
+  border-bottom: 3px solid #44c0c2;
+  padding: 40px 20px;
+  background-color: #f8f9fb;
+}
+
+.slide .slider{
+  position: relative;
+  color: white;
+}
+
+.slide img{
+  width: 100%;
+  display: block;
+}
+
+.text_slider {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translate(0px, -50%);
+  font-family: "OpenSansRegular";
+  color: white;
+}
+
+.text_slider h2{
+  font-size: 63px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
+  margin-bottom: 30px;
+}
+
+.text_slider p{
+  font-size: 23px;
+  max-width: 380px;
+  margin: 0 auto;
+  line-height: 40px;
+  margin-bottom: 60px;
+}
+
+.button_slider{
+  font-size: 26px;
+  line-height: 23px;
+  color: white;
+  padding: 20px 40px;
+  border: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.caption_content{
+  font-size: 42px;
+  font-family: "Myriad Pro";
+  color: #4e525d;
+  font-weight: 200;
+  padding-top: 120px;
+  margin-bottom: 140px;
+}
+
+.team_box{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.item_team{
+  display: inline-block;
+  color: #5a5e68;
+  font-family: "OpenSansRegular";
+  margin-left: 40px;
+}
+
+.photo_team{
+  max-width: 200px;
+  margin-bottom: 70px;
+}
+
+.item_name{
+  font-size: 22px;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+
+}
+
+.job{
+ font-size: 14px;
+ padding-top: 0;
+ margin-bottom: 20px;
+}
+
+.description{
+  font-size: 14px;
+  max-width: 247px;
+  height: 66px;
+}
+
+.conteiner_for_plans{
+  background-color: #f1f1f1;
+  width: 100%;
+  text-align: center;
+}
+
+.plans{
+  font-family: "OpenSansRegular";
+  display: inline-block;
+  border: 2px solid #ecf0f1;
+  margin-left: 15px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+
+}
+
+.plan_name{
+  font-size: 26px;
+  color: white;
+  background-color: #485460;
+  padding: 20px 100px; 
+  font-weight: 200px;
+}
+
+.plane_name_blue{
+  background-color: #49cbcd !important;
+}
+
+.price{
+  font-size: 20px;
+  color: #485460;
+  background-color: #f8f9fb;
+  padding: 20px 100px;
+  
+}
+
+.list_item{
+  font-size: 14px;
+  color: #8c9299;
+  padding: 10px 100px;
+  display: block;
+  background-color: white;
+  border-top: 1px solid #ecf0f1;
+  border-bottom: 1px solid #ecf0f1;
+  }
+
+.box_button_plan{
+  background-color: #f8f9fb;
+  padding: 25px 100px;
+}
+
+.button_plan{
+  background-color: #788492;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 17px;
+}
+
+.button_plan_blue{
+ background-color: #49cbcd !important;
+}
+
+footer{
+  background: url(../img/foot.jpg) center top / cover;
+  width: 100%;
+  height: auto;
+}
