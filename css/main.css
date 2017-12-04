@@ -211,7 +211,114 @@ body{
 }
 
 footer{
-  background: url(../img/foot.jpg) center top / cover;
+  background: url(../img/foot.jpg) no-repeat top / cover;
+  height: 700px;
   width: 100%;
+  font-family: "OpenSansRegular";
+}
+
+.caption_foot{
+  color: white;
+  font-size: 42px;
+  font-weight: 200;
+  padding-top: 115px;
+  margin-bottom: 120px;
+}
+
+.contact{
+  text-align: left;
+  max-width: 440px;
+  float: left;
+}
+
+.contact h6{
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact p{
+  font-size: 14px;
+  color: #8b8b8b;
+  margin-bottom: 50px;
+}
+
+.social_logo{
+  float: left;
+  margin-bottom: 20px;
+ 
+}
+
+.social_logo img{
+  max-width: 45px;
   height: auto;
+  margin-right: 20px;
+}
+
+.copyright p{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: #bface2;
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.feedback, form{
+  float: right;
+  max-width: 520px;
+  height:300px;
+  text-align: center;
+}
+
+.input_foot{
+  display: inline-block;
+  width: 250px;
+  height: 35px;
+  margin-bottom: 15px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  color: #e2e2e2;
+  font-size: 16px;
+  font-family: "OpenSansRegular";
+  font-weight: 200;
+}
+
+.input_foot:first-child{
+  margin-right: 15px;
+}
+
+label{
+
+}
+
+textarea {
+  width: 520px; /* Ширина поля в процентах */
+  height: 180px; /* Высота поля в пикселах */
+  resize: none; /* Запрещаем изменять размер */
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "OpenSansRegular";
+  font-weight: 200;
+  color: #e2e2e2;
+  margin-bottom: 15px;
+}
+
+.button_feedback{
+  background-color: #49cbcd;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  float: right;
+  font-family: "OpenSansRegular";
+}
+
 }
