@@ -377,10 +377,10 @@ footer{
   box-sizing: border-box;
   border: none;
   border-radius: 3px;
-  color: grey;
   font-size: 16px;
   font-family: "OpenSansRegular";
   font-weight: 200;
+  color: grey;
 }
 
 .input_foot:first-child{
@@ -513,6 +513,7 @@ textarea {
 
   .button_plan {
     font-size: 15px;
+
   }
 
   .caption_foot {
@@ -538,6 +539,7 @@ textarea {
     font-size: 10px;
     color: #8b8b8b;
     margin-bottom: 30px;
+    max-width: 220px;
   }
 
   .social_logo{
@@ -575,7 +577,7 @@ textarea {
 
   .input_foot{
     display: inline-block;
-    width: 200px;
+    width: 190px;
     height: 30px;
     margin-bottom: 15px;
     padding: 8px;
@@ -598,7 +600,12 @@ textarea {
   .input_foot:first-child{
     margin-right: 15px;
   }
+
+  .button_feedback {
+    margin-right: 60px;
+  }
 }
+
 
 @media (max-width: 640px ){
   .menu{
@@ -627,6 +634,10 @@ textarea {
 
   .logo{
     margin-top:5px;
+  }
+
+  .owl-prev, .owl-next {
+    display: none !important;
   }
 }
 
