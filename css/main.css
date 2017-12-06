@@ -143,6 +143,7 @@ body{
   transform: translate(0px, -50%);
   font-family: "OpenSansRegular";
   color: white;
+  overflow: hidden;
 }
 
 .text_slider h2{
@@ -168,6 +169,10 @@ body{
   border-radius: 10px;
   cursor: pointer;
   background-color: transparent;
+}
+
+.button_slider:hover{
+  box-shadow: 0px 0px 50px white;
 }
 
 .owl-prev, .owl-next{
@@ -298,6 +303,14 @@ body{
   font-size: 17px;
 }
 
+.button_plan:hover{
+  box-shadow: 0px 0px 40px lime;
+}
+
+.button_plan_blue:hover{
+  box-shadow: 0px 0px 40px lime;
+}
+
 .button_plan_blue{
  background-color: #49cbcd !important;
 }
@@ -342,7 +355,14 @@ footer{
 .social_logo{
   float: left;
   margin-bottom: 20px;
- 
+}
+
+.social_logo a:hover{
+  opacity: 0.7;
+}
+
+.button_feedback:hover{
+  box-shadow: 2px 2px 5px white;
 }
 
 .social_logo img{
@@ -498,28 +518,27 @@ textarea {
   }
 
   .price {
-      font-size: 18px;
-      padding: 10px 60px;
+    font-size: 18px;
+    padding: 10px 60px;
   }
 
   .list_item {
-      font-size: 12px;
-      padding: 5px 50px;
+    font-size: 12px;
+    padding: 5px 50px;
   }
 
   .box_button_plan {
-      padding: 15px 60px;
+    padding: 15px 60px;
   }
 
   .button_plan {
     font-size: 15px;
-
   }
 
   .caption_foot {
-      font-size: 32px;
-      padding-top: 60px;
-      margin-bottom: 60px;
+    font-size: 32px;
+    padding-top: 60px;
+    margin-bottom: 60px;
   }
 
   .responsive_contact{
@@ -539,21 +558,20 @@ textarea {
     font-size: 10px;
     color: #8b8b8b;
     margin-bottom: 30px;
-    max-width: 220px;
   }
 
   .social_logo{
     float: none;
     margin-bottom: 10px;
   }
-
+  
   .social_logo img{
     max-width: 45px;
     height: auto;
     margin-right: 20px;
     margin-bottom: 10px;
   }
-
+  
   .responsive_copyright p{
     font-size: 14px;
     font-family: "Myriad Pro";
@@ -591,10 +609,10 @@ textarea {
   }
 
   .responsive_feedback textarea{
-      width: 400px;
-      height: 150px;
-      font-size: 14px;
-      margin-bottom: 15px;
+    width: 400px;
+    height: 150px;
+    font-size: 14px;
+    margin-bottom: 15px;
   }
 
   .input_foot:first-child{
@@ -602,7 +620,7 @@ textarea {
   }
 
   .button_feedback {
-    margin-right: 60px;
+    margin-right: 20px;
   }
 }
 
