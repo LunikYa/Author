@@ -571,7 +571,7 @@ textarea {
   .social_logo img{
     max-width: 45px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 0px;
     margin-bottom: 10px;
   }
   
@@ -668,9 +668,6 @@ textarea {
     font-size: 2.3em;
   }
   
-  .responsive_feedback{
-    display: none;
-  }
 
   .slide .text_slider h2 {
     font-size: 20px;
@@ -681,8 +678,13 @@ textarea {
     font-size: 13px;
     margin-bottom: 0;
     line-height: 15px;
+    max-width: 250px;
   }
 
+  .text_slider {
+    top: 62%;
+  }
+  
   footer{
     height: auto;
   }
@@ -707,5 +709,40 @@ textarea {
   .button_slider {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .responsive_feedback, form{
+    height: 220px;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;   
+  }
+
+  .input_foot{
+    width: 90px;
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    float: none;
+  }
+
+  .responsive_feedback textarea{
+    width: 200px;
+    height: 100px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .input_foot:first-child{
+    margin-right: 15px;
+  }
+
+  .button_feedback{
+    margin-top: 20px;
+    padding: 5px 30px;
+    font-size: 12px;
+    margin-right: 0px;
   }
 }
