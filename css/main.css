@@ -169,10 +169,12 @@ body{
   border-radius: 10px;
   cursor: pointer;
   background-color: transparent;
+  margin-bottom: 30px;
 }
 
 .button_slider:hover{
-  box-shadow: 0px 0px 50px white;
+  box-shadow: 0px 0px 30px white;
+
 }
 
 .owl-prev, .owl-next{
@@ -361,10 +363,6 @@ footer{
   opacity: 0.7;
 }
 
-.button_feedback:hover{
-  box-shadow: 2px 2px 5px white;
-}
-
 .social_logo img{
   max-width: 45px;
   height: auto;
@@ -431,6 +429,11 @@ textarea {
   font-size: 18px;
   float: right;
   font-family: "OpenSansRegular";
+  margin-right: 5px;
+}
+
+.button_feedback:hover{
+  box-shadow: 0px 0px 12px white;
 }
 
 @media(max-width: 980px){
