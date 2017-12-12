@@ -1,5 +1,13 @@
 @import url("fonts.css");
 
+
+
+@keyframes move {
+  from{box-shadow: 0px 0px 10px yellow;}
+  50% {box-shadow: 0px 0px 20px grey;}
+  to  {box-shadow: 0px 0px 30px green;}
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -172,9 +180,22 @@ body{
   margin-bottom: 30px;
 }
 
-.button_slider:hover{
-  box-shadow: 0px 0px 30px white;
+@keyframes meanshadow {
+  from{box-shadow: 0px 0px 30px #EFFBFB; color: #44c0c2; }
+  25% {box-shadow: 0px 0px 10px #FFFF00; color: #0174DF;}
+  50%{box-shadow: 0px 0px 20px #00FF00; color: #0B243B; }
+  to  {box-shadow: 0px 0px 30px #EFFBFB; color: #44c0c2; }
+}
 
+@keyframes bg_transorant_to_white {
+  from {background-color: transparent;}
+  to {background-color: #fff}
+}
+
+.button_slider:hover{
+  animation:  meanshadow 3.5s infinite ease-in-out, bg_transorant_to_white 3s linear; 
+  background-color: #fff;
+  color: #44c0c2;
 }
 
 .owl-prev, .owl-next{
@@ -305,7 +326,13 @@ body{
   font-size: 17px;
 }
 
+@keyframes shadow {
+  from{box-shadow: 0px 0px 10px #A9F5F2;}
+  to  {box-shadow: 0px 0px 40px #088A85;}
+}
+
 .button_plan:hover{
+  animation: shadow 2s infinite ease-in-out alternate; 
   box-shadow: 0px 0px 40px lime;
 }
 
